@@ -1,0 +1,145 @@
+
+/*Footer*/
+
+.page__footer {
+  grid-area: f;
+  background-color: #1a1b1b;
+  /*background-color: #3f443b;
+  background: rgb(from #3f443b r g b / 69%);*/
+  color: white;
+  /*padding: 20px; 
+  text-align: center;*/
+  height: 250px;
+  position: relative;
+}
+
+.footer__inner {
+  position: absolute;
+  /*overflow: hidden;*/
+  width: 100%;
+  height: 70%;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*Footer brand logo*/
+.footer__logoImg {
+  width: 200px;
+  height: 120px;
+}
+
+.footer__company, .footer__services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__companyList, .footer__servicesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: self-start;
+}
+
+.footer__companyItem, .footer__servicesItem {
+  width: auto;
+  list-style-type: none;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-around;
+}
+
+/* .footer__sitemapLink {
+  font-weight: bolder;
+  color: #ffff;
+  font-size: 16px;
+} */
+
+.footer__span {
+  color: #ffff;
+}
+
+.footer__socialMedia {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+} 
+
+.footer__header {
+  font-weight: bolder;
+  color: #ffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footer__headerColour {
+  color: #f59252;
+  letter-spacing: 0.5px;
+}
+
+.footer__socialMediaList {
+  display: flex;
+
+}
+
+.footer__socialMediaItem {
+  list-style: none;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: space-around;
+}
+
+/*Img Social Icons*/
+.footer__socialMediaImg {
+  width: 25px;
+  height: 25px;
+  color: yellow;
+  margin-right: 20px;
+}
+
+.footer__socialMediaImg:hover {
+  cursor: pointer;
+}
+
+.footer__legal {
+  position: absolute;
+  /*overflow: hidden;*/
+  width: 100%;
+  /*height: 70%;*/
+  color:#ddd0d0;
+
+  margin-top: 160px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: small;
+  letter-spacing: 0.3px;
+  
+}
+
+.footer__spanLegal {
+  color: #ddd0d0;
+}
+
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 520px) {
+  .footer__sitemapLink {
+      display: none;
+  }
+
+  .footer__span {
+      display: none;
+  }
+}

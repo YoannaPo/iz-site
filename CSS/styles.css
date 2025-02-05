@@ -4,13 +4,17 @@
 @import "nav.css";
 @import "footer.css";
 
-
+/* Apply box-sizing: border-box to all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 
 html {
     scroll-behavior: smooth;
-    -moz-context-properties: nosniff;
-
+    
 }
 
 
@@ -41,8 +45,7 @@ body {
     position: relative;
     grid-area: h;
     grid-area: 2/1/2/13;
-    min-height: 300px;
-    
+    min-height: 300px;   
 }
 
 .video__container {
@@ -69,7 +72,7 @@ body {
     position: absolute;
     min-width: 50vw; 
     min-height: 50vh;
-    background-color:rgba(10,10,10,0.8);
+    /*background-color:rgba(10,10,10,0.8);*/
     /*z-index: 100;*/
     left: 0;
     top: 0;
@@ -92,6 +95,12 @@ body {
     position: absolute;
     top: 50%;
     color: #fff;
+    background-color: rgba(10,10,10,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+
 
   }
 

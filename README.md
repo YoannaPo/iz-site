@@ -30,3 +30,9 @@ Add contact form and more content
 Project is:  _in progress_
 
 ## Live
+https://yoannapo.github.io/iz-site/
+
+## Credits
+Video - Surasak Sootthikarn
+https://www.vecteezy.com/
+

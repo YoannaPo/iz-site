@@ -155,6 +155,7 @@ p {
     font-family: 'AvenirNext-Regular';
     font-size: 16px;
     letter-spacing: 1.5px;
+    font-weight: 400;
     cursor: pointer;
   }
 
@@ -162,6 +163,8 @@ p {
     background-color: #eeeeee;
     color: #f59252;
     cursor: pointer;
+    transform: scale(1.02);
+    transition: all .5s linear;
   }
 
   /*

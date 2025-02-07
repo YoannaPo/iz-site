@@ -77,7 +77,7 @@
     border: none;
     border-radius: 5px;
     font-family: 'AvenirNext-Regular';
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 1.5px;
     cursor: pointer;
@@ -87,4 +87,6 @@
     background-color: #eeeeee;
     color: #f59252;
     cursor: pointer;
+    transform: scale(1.02);
+    transition: all .5s linear;
   }
